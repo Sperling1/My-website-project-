@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
+
+#page_flowers{
+    background-color:rgb(104, 245, 104);}
+#page_landscape{
+    background-color:rgb(138, 226, 238);}
+#page_home{
+    background-color:rgb(238, 247, 120);}
+#page_woods{
+    background-color: rgb(5, 146, 5);
+    }
+.box {
+        color:black;
+        font-size: 30px;
+        text-align: center;
+        padding:15px;  
+    }
+.box:hover{
+    color:orangered;
+    background-color: yellowgreen;
+    transition: background-color .5s
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    }
+
+*{
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1{
+    font-size: 70px;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color:rgb(41, 7, 7);
+   font-family:'Dancing Script', cursive; 
+}
+h3{
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+.poem{
+    font-family:'Dancing Script', cursive; 
+    
+}
+.align_img{
+    width: 30%;
+    margin: 1.66% ;
+    float: left;
+}
+.link{
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+}
+.link:hover{
+    color: white;
+}
+#center{
+    text-align: center;
+}
+
+#nature{
+    width: 100%;
+    
+}
+.text{
+    font-size: 20px;
+}
